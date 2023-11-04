@@ -92,3 +92,13 @@
     color: white;
     font-weight: bold;
 }
+
+/* adding Media Query */
+@media only screen and (max-width: 600px) {
+    .box{
+        width: 100%;
+    }
+    .search input{
+        width: 271px;
+    }
+}
